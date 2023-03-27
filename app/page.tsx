@@ -4,6 +4,13 @@ import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+import { credentials, loadPackageDefinition } from "@grpc/grpc-js";
+import { ServiceClient } from "@grpc/grpc-js/src/make-client";
+import {
+  GrpcObject,
+  ServiceClientConstructor,
+} from "@grpc/grpc-js/build/src/make-client";
+
 export default function Home() {
   return (
     <main className={styles.main}>
