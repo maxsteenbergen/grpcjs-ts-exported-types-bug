@@ -1,4 +1,4 @@
-Reproducible project for gRPC-JS bug report https://github.com/grpc/grpc-node/issues/2400
+Reproducible project for gRPC-JS bug report https://github.com/grpc/grpc-node/issues/2400. 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
